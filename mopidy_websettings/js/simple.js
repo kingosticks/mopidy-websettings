@@ -1,4 +1,4 @@
-var mopidy = new Mopidy({callingConvention: 'by-position-or-by-name'})
+var mopidy = new Mopidy()
 
 function getCurrentTrackUri() {
     if (mopidy && mopidy.playback) {
